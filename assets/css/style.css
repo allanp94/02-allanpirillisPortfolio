@@ -74,6 +74,7 @@ body {
 
 .project {
   position: relative;
+  align-items: center
 }
 
 .section-content {
@@ -93,15 +94,22 @@ body {
 }
 
 #first-img {
-  width: 730px;
+  width: 804px;
   height: 430px;
 }
-
+.project-body{
+    align-items: bottom;
+}
 .project-name {
   position: absolute;
-  bottom: 40px;
-  left: 40px;
+  bottom: 30px;
   font-size: 18px;
+  border: 3px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  width: 180px;
+  height: 80px;
+  color: var(--forth-color);
+  font-weight: bold;
 }
 
 .section-content ul {
