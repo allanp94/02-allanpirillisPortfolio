@@ -49,7 +49,7 @@ header nav ul li a {
   text-decoration: none;
   color: var(--secondary-color);
   font-size: 2vw;
-  border-bottom: 3px solid white;
+  border-bottom: 0.3vw solid white;
   padding: 5px;
 }
 
@@ -86,6 +86,7 @@ body {
   display: flex;
   margin-top: 20px;
   margin-bottom: 10px;
+  flex-wrap: wrap;
 }
 
 .section-title {
@@ -175,5 +176,29 @@ body {
 @media screen and (max-width: 980px) {
   header {
     margin: 0;
+    width: 100%;
+  }
+  .hero {
+    width: 100%;
+  }
+
+  .section-container {
+    justify-content: center;
+  }
+
+  .section-title {
+    width: 50%;
+    text-align: center;
+    border-bottom: 3px solid var(--primary-color);
+    border-right: none;
+  }
+
+  .section-content {
+    width: 80%;
+    justify-content: center;
+  }
+
+  #big-img {
+    width: 80%;
   }
 }
