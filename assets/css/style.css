@@ -67,8 +67,9 @@ body {
   background-color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/allan-heroImg.jpg);
-  background-position: center;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   height: 500px;
   position: relative;
 }
@@ -81,23 +82,24 @@ body {
   color: white;
 }
 
+.section-container {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
 .section-title {
-  font-size: 36px;
-  padding-right: 15px;
-  border-right: 3px solid var(--primary-color);
-  width: 19%;
+  margin-left: 70px;
+  font-size: 3.2vw;
   text-align: right;
+  border-right: 3px solid var(--primary-color);
   color: var(--forth-color);
+  width: 20%;
+  padding-right: 10px;
 }
 
 .section-title h2 {
   font-weight: normal;
-}
-
-.section-container {
-  display: flex;
-  margin: 25px 100px 0 100px;
-  justify-content: space-between;
 }
 
 .project {
@@ -106,33 +108,33 @@ body {
 }
 
 .section-content {
-  width: 81%;
-  margin-left: 50px;
+  width: 80%;
+  box-sizing: content-box;
+  margin-left: 30px;
+  margin-right: 70px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   color: var(--secondary-color);
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 0px 15px;
 }
 
 .project-img img {
   border: 3px solid var(--primary-color);
-  margin-right: 10px;
-  margin-bottom: 10px;
 }
 
 #small-img {
-  width: 400px;
+  width: 405px;
   height: 150px;
   border: 3px solid var(--primary-color);
+  margin-bottom: 20px;
 }
 
 #big-img {
-  width: 809px;
+  width: 840px;
   height: 430px;
-}
-.project-body {
-  align-items: bottom;
+  margin-bottom: 20px;
 }
 .project-name {
   position: absolute;
