@@ -32,14 +32,22 @@ The personal portfolio is far from finished; as of 03.14.21 it has the core func
 ### Max viewport of 575 
 ![Screebshot](./screenshots/575-screenshot.png)
 
+---
+
 ### Max viewport of 768
 ![Screebshot](./screenshots/768-screenshot.png)
+
+---
 
 ### Max viewport of 980
 ![Screebshot](./screenshots/980-screenshot.png)
 
+---
+
 ### Max viewport of 1024
 ![Screebshot](./screenshots/1024-screenshot.png)
 
-## Link to Deployed Application
+---
 
+## Link to Deployed Application
+https://allanp94.github.io/02-allanpirillisPortfolio/
